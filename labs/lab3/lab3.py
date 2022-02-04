@@ -28,11 +28,5 @@ def traffic_average():
 
 
 
- #       for j in range(totaldays):
-
- #           n = eval(input("How many days was road surveyed?:"))
-
- #           eval(input("How many cars passed on day 1?:"))
-
 
 traffic_average()
