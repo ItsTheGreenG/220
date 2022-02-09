@@ -24,11 +24,11 @@ def squares():
 
     # create a space to instruct user
     inst_pt = Point(width / 2, height - 10)
-    instructions = Text(inst_pt, "Click to move circle")
+    instructions = Text(inst_pt, "Click to move Square")
     instructions.draw(win)
 
     # builds a circle
-    shape = Circle(Point(50, 50), 20)
+    shape = Rectangle(Point(50,50), Point(70,70))
     shape.setOutline("red")
     shape.setFill("red")
     shape.draw(win)
@@ -46,7 +46,7 @@ def squares():
 
     win.getMouse()
     win.close()
-
+squares()
 
 def rectangle():
     pass
