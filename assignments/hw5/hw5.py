@@ -1,4 +1,13 @@
 import math
+"""
+Name: Owen Schlagenhaft
+hw5.py
+
+Problem: Solutions to problems using loops.
+
+Certification of Authenticity:
+I certify that this assignment is entirely my own work.
+"""
 def name_reverse():
     full_name = input("Enter a name(first,last)")
     first, last = full_name.split()
@@ -16,8 +25,7 @@ def initials():
     for i in range(num_students):
         name = input(print("What is the name of Student", i + 1, "?"))
         first, last = name.split(' ')
-        myList = [first, last]
-    print(first[0] + last[0])
+        print(first[0] + last[0])
 initials()
 
 def names():
