@@ -1,6 +1,6 @@
-"""
 Name: Owen Schlagenhaft
-hw6.py
+hw6.py"""
+
 
 Problem: multiple cipher and string problems
 
