@@ -3,7 +3,7 @@ import math
 
 
 
-
+# creating graphics box for input
 
 def vigenere_graphic():
   win = GraphWin("Vigenere Cipher", 500, 500)
