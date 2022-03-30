@@ -2,7 +2,7 @@
 Name: Owen Schlagenhaft
 hw8.py
 
-Problem: Set of tasks to perform various For Loops and Boolean Statements
+Problem: Set of tasks to perform various For Loops and Boolean Statement
 
 Certification of Authenticity:
 <include one of the following>

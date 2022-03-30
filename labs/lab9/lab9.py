@@ -2,9 +2,10 @@
 Name: Owen Schlagenhaft
 Lab9.py
 Created a game of Tic Tack Toe!
+File was pushed last night at 9, updated this morning with comments
 """
 import math
-
+#creates list for board
 def build_board():
     num_list = [1,2,3,4,5,6,7,8,9]
     print_board(num_list)
@@ -41,7 +42,7 @@ def print_board(board):
     print(row_3)
     print(reset)
 
-
+#checks if position is legal or not
 def is_legal(board, position):
     if position > 9:
         print("Not Legal too high")
@@ -53,7 +54,7 @@ def is_legal(board, position):
         return True
 
 
-
+#fills a spot on the board if the move is legal
 def fill_spot(board, position, character):
     if is_legal(board,position):
         board[position-1] = character
@@ -118,10 +119,11 @@ def winning_game(board):
     else:
         return False
 
-
+# had trouble with this, used .join from chpter 4
 def game_over(board):
     boardstr = ''.join([str(elem) for elem in board])
     count = 0
+    # for here checking if i is a int, then count
     for i in boardstr:
         if i.isdigit():
             count += 1
@@ -140,7 +142,7 @@ def game_over(board):
 
 def get_winner(board):
     pass
-
+#creates the play function to run and interact with game
 
 def play(board):
     while not game_over(board):
