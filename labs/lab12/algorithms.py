@@ -89,6 +89,12 @@ hi_lo_game()
 
 
 
+def is_in_binary(search_val, values):
+    if search_val in values:
+        return True
+    else:
+        return False
+
 
 
 
